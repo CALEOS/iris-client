@@ -1,0 +1,31 @@
+{
+  "name": "iris-client",
+  "version": "0.1.0-beta1",
+  "description": "An EOSIO websocket subscription client for the Iris service",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CALEOS/iris-client.git"
+  },
+  "keywords": [
+    "eosio",
+    "iris",
+    "websocket",
+    "stream",
+    "subscription"
+  ],
+  "author": "info@caleos.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CALEOS/iris-client/issues"
+  },
+  "homepage": "https://github.com/CALEOS/iris-client#readme",
+  "dependencies": {
+    "isomorphic-webcrypto": "^1.6.1",
+    "isomorphic-ws": "^4.0.1",
+    "ws": "^7.0.1"
+  }
+}
