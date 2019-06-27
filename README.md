@@ -4,7 +4,7 @@ The IrisClient is a websocket client that can subscribe to streams of live data 
 
 ## Installation
 
-`npm install @caleos/iris-client`
+Clone this repo and `require('iris-client')`
 
 ## Example
 
