@@ -1,5 +1,5 @@
 {
-  "name": "iris-client",
+  "name": "@caleos/iris-client",
   "version": "0.1.0",
   "description": "An EOSIO websocket subscription client for the Iris service",
   "main": "index.js",
