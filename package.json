@@ -4,7 +4,6 @@
   "description": "An EOSIO websocket subscription client for the Iris service",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
   },
   "repository": {
     "type": "git",
