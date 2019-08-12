@@ -135,7 +135,26 @@ constructor(endpoint) {
         return clientSubscription
     }
 
+    subscribeRow(code, scope, table, handler) {
+        if (code === undefined) {
+            console.error('subscribeRow called with undefined code')
+            return
+        }
 
+        if (scope === undefined) {
+            console.error('subscribeRow called with undefined scope')
+            return
+        }
+
+        if (table === undefined) {
+            console.error('subscribeRow called with undefined table')
+            return
+        }
+
+        let clientSubscription = new IrisClientSubscription(Channels.ROW, `${code}::${scope}::${table}`, handler)
+        this.subscribe(clientSubscription)
+        return clientSubscription
+    }
 
 }
 
