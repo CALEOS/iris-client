@@ -19,7 +19,7 @@
     "subscription"
   ],
   "author": "info@caleos.io",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/CALEOS/iris-client/issues"
   },
