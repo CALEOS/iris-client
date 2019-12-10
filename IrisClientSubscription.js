@@ -1,5 +1,4 @@
-const crypto = require('isomorphic-webcrypto')
-
+const crypto = typeof (window) !== 'undefined' && window.crypto ? window.crypto : require('isomorphic-webcrypto')
 class IrisClientSubscription {
 
     constructor(channel, topic, handler, id) {
